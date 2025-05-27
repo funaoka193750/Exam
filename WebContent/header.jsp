@@ -1,12 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@ page cntentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!--%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"-->>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>得点管理システム</title>
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/style.css'/>">
 </head>
-<body>
 
-</body>
+<!-- 上部タイトルエリア -->>
+<div class="header-wrapper">
+	<h1>得点管理システム</h1>
+
+<ul class="rogout">
+<li><a href="<c:url value='window/Login.jsp'/>">ログイン</a></li>
+</ul>
+</div>
 </html>
